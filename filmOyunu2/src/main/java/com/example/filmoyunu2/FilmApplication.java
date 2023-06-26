@@ -17,7 +17,7 @@ public class FilmApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(FilmApplication.class.getResource("film.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("GUESS MOVİ");
+        stage.setTitle("GUESS MOVİe");
         stage.setScene(scene);
         stage.show();
     }
